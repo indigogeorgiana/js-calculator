@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Web Dev Wannabe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">  
+ </head>
+<body>
+  <h1>Web Dev Wannabe</h1>
+    <h2>Calculator</h2>
+      <form id="calculator">
+        <input type="text" name="screen" id="display" placeholder="0." disabled>
+          <br>
+            <input type='button' value='C' id='keys' onClick='addToInput("c")'>
+            <input type='button' value='CE' id='keys' onClick='goBack()'>
+            <input type='button' value='x^2' id='keys'onClick='tothepower()'>
+            <input type='button' value='+' id='keys' onClick='addToInput("+")'>
+            <br>
+  
+            <input type='button' value='9' id='keys' onClick='addToInput("9")'>
+            <input type='button' value='8' id='keys' onClick='addToInput("8")'>
+            <input type='button' value='7' id='keys' onClick='addToInput("7")'>
+            <input type='button' value='-' id='keys' onClick='addToInput("-")'>
+            <br>
+      
+            <input type='button' value='6' id='keys' onClick='addToInput("6")'>
+            <input type='button' value='5' id='keys' onClick='addToInput("5")'>
+            <input type='button' value='4' id='keys' onClick='addToInput("4")'>
+            <input type='button' value='*' id='keys' onClick='addToInput("*")'>
+            <br>
+    
+            <input type='button' value='3' id='keys' onClick='addToInput("3")'>
+            <input type='button' value='2' id='keys' onClick='addToInput("2")'>
+            <input type='button' value='1' id='keys' onClick='addToInput("1")'>
+            <input type='button' value='/' id='keys' onClick='addToInput("/")'>
+            <br>
+            
+            <input type='button' value='0' id='keys' onClick='addToInput("0")'>
+            <input type='button' value='.' id='keys' onClick='addToInput(".")'>
+            <input type='button' value='=' id='equal' onClick='total()'>
+            <br>                   
+        </form>
+        <script  src="js/index.js"></script>
+      </div>
+   </body>
+</html>
+
+ 
+
+  
+
+
+
